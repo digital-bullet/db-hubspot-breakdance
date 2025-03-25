@@ -1,0 +1,67 @@
+/**
+ * Admin styles for DB HubSpot for Breakdance
+ */
+
+.db-hubspot-admin-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.db-hubspot-admin-main {
+    flex: 1 1 70%;
+    margin-right: 20px;
+    min-width: 500px;
+}
+
+.db-hubspot-admin-sidebar {
+    flex: 1 1 25%;
+    min-width: 250px;
+}
+
+.db-hubspot-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.db-hubspot-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.db-hubspot-help-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 15px 20px;
+}
+
+.db-hubspot-help-box h3 {
+    margin-top: 0;
+}
+
+.db-hubspot-help-box ol {
+    margin-left: 18px;
+}
+
+#db_hubspot_connection_status {
+    margin-top: 10px;
+    padding: 8px 12px;
+    display: none;
+}
+
+#db_hubspot_connection_status.success {
+    background-color: #f0f6e4;
+    border-left: 4px solid #7ad03a;
+    display: block;
+}
+
+#db_hubspot_connection_status.error {
+    background-color: #fef1f1;
+    border-left: 4px solid #d63638;
+    display: block;
+} 
