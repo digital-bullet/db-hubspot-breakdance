@@ -74,6 +74,14 @@ The left side is the field name in your Breakdance form, and the right side is t
 When a user submits a selected Breakdance form, the plugin captures the form data, maps it according to your defined field mapping, and sends it to HubSpot via their official API. If successful, the contact is created or updated in your HubSpot CRM.
 
 
+## Known Limitations
+
+Form Detection in Breakdance
+
+Due to how Breakdance handles forms on the frontend (as block-based structures rather than centrally registered post objects), automatically detecting available forms across a site is currently unreliable.
+
+As a result, selective form integration is still experimental and may not list all forms as expected. If you have insight into how to better detect or register Breakdance forms, feel free to open an issue or submit a pull request — collaboration is welcome!
+
 
 ## Frequently Asked Questions
 
