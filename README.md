@@ -74,7 +74,7 @@ The left side is the field name in your Breakdance form, and the right side is t
 When a user submits a selected Breakdance form, the plugin captures the form data, maps it according to your defined field mapping, and sends it to HubSpot via their official API. If successful, the contact is created or updated in your HubSpot CRM.
 
 
-Known Limitations
+## Known Limitations
 
 Form Detection in Breakdance
 
